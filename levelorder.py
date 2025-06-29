@@ -7,7 +7,7 @@ class TreeNode:
 class Solution:
     def levelorder(self,root:TreeNode):
         res=[]
-        q=collections.deque()
+        q=collections.deque()//dequeue
         q.append(root)
         while q:
             qlen=len(q)
